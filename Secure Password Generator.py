@@ -1,22 +1,14 @@
 #Louie Bloomberg
-#Final Exam Project 
+#Password Land
 #The Secure Password Generator! & Password Checker!
 #Version 1.0
 
-#Importing Modules: Links for things are mostly here with some other links scattered around.
-import random #https://docs.python.org/3/library/random.html 
-import string #https://docs.python.org/3/library/string.html
-import secrets #https://docs.python.org/3/library/secrets.html
-import math #https://docs.python.org/3/library/math.html
-import hashlib #https://docs.python.org/3/library/hashlib.html
-#Hashlib is for the hashing of passwords to test against a database of passwords. 
-#GeeksforGeeks was a big help in this: https://www.geeksforgeeks.org/sha-in-python/#
-import requests #https://docs.python-requests.org/en/latest/user/quickstart/
-#This website also helped https://rapidapi.com/blog/how-to-use-an-api-with-python/
-#For the use of the pwnedpasswords system... 
-#apparently python doesn't like to open a 38.9 GB file. (eye roll emoji)
-
-#All needed files are attached in the folder uploaded.
+import random 
+import string 
+import secrets 
+import math 
+import hashlib 
+import requests 
 
 #######BEGIN FUNCTION DEFINITIONS###################
 def load_words(file): 
@@ -24,8 +16,6 @@ def load_words(file):
     Function loads words into list, words
     Param: file, string - it contains the name of the text file with the words to be used for the password.
     Returns: words, a list containing the words.
-
-    #Dataset links are in the proposal document. 
     """
     with open(file,"r", encoding="utf8") as infile:
         words = infile.read().split()
