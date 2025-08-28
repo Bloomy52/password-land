@@ -28,7 +28,7 @@ def password_selection():
     Params: NONE
     Return Value: an integer corresponding to the password selection they chose.
     """
-    print("Welcome to the Secure Password Generator & Password Checker")
+    print("Welcome to the Secure Password Generator")
     print("To Begin, please select the type of password you would like using a num-pad/num-row on your keyboard.")
     print("Alphanumeric Password: 1")
     print("Alphabetic Password: 2")
@@ -185,3 +185,4 @@ while pw_sel == False:
     elif sel == -1:
         pw_sel = False
         print("Invalid Selection. Please select one of the options.\n")
+
