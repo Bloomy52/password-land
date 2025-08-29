@@ -1,0 +1,19 @@
+WordNet 3.0 License
+
+The WordNet database and software are copyrighted by Princeton University. The following license applies to the software and database:
+
+1. You may copy and distribute this software and the database in any form, provided that you include the copyright notice and this license in all copies.
+
+2. You may not sell this software or the database.
+
+3. You may not modify the software or the database, except as provided in the following paragraph.
+
+4. You may create derivative works based on the software or the database, provided that you include the copyright notice and this license in all copies of the derivative work.
+
+5. This software and the database are provided "as is" without any warranty of any kind. Princeton University makes no representations about the suitability of this software or the database for any purpose.
+
+6. You may not use the name of Princeton University or the names of its contributors in any advertising or publicity without their written permission.
+
+7. This license shall be governed by the laws of the state of New Jersey.
+
+For more information about WordNet, visit: http://wordnet.princeton.edu/
