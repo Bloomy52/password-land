@@ -62,6 +62,17 @@ This password will contain words, numbers, and punctuation.
 - The project structure has been organized for easier use and maintenance.
 - Unused or deprecated files have been removed.
 
+## WordNet Data Attribution
+
+This project uses lexical data from [WordNet 3.0](https://wordnet.princeton.edu/).
+
+The original WordNet database files include a license notice at the top of each file.  
+For technical reasons, this license notice has been removed from the data files as used by the project.  
+The full WordNet license is included in [licenses/WordNet-LICENSE.txt](licenses/WordNet-LICENSE.txt), and the accompanying README is in [licenses/WordNet-README.txt](licenses/WordNet-README.txt).
+
+All use of the WordNet data is governed by the terms of that license.  
+Any modifications to the data are not endorsed by Princeton University.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
