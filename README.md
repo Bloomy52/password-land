@@ -56,13 +56,6 @@ This password will contain words, numbers, and punctuation.
 <Your generated password will appear here>
 ```
 
-## File Structure
-
-- `secure_pwgen.py`: Main Python script for generating passwords.
-- `words_alpha.txt`: Word list for generating word-based passwords (included).
-- `.gitignore`: Standard git ignore file.
-- `LICENSE`: MIT license.
-
 ## Latest Changes
 
 - The selection menu and user prompts have been updated for clarity.
