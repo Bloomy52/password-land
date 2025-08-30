@@ -58,7 +58,9 @@ This password will contain words, numbers, and punctuation.
 
 ## Latest Changes
 
-- Initial public release.
+- Default Parameters from word-only, numeric, and ASCII password generation functions.
+- Default Parameter references from docstrings.
+- Unnecessary comment near importing modules area.
 
 ## License
 
