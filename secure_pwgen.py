@@ -1,9 +1,9 @@
 # Louie Bloomberg
 # The Secure Password Generator!
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
-# Importing Modules: Links for things are mostly here with some other links scattered around.
+# Importing Modules:
 import random
 import string
 import secrets
@@ -100,11 +100,11 @@ def create_alphanumeric_password(words):  # 1 (Default Password) - This is the s
     return password  # returns alphanumeric password
 
 
-def create_word_password(words, num_words=4):  # 2
+def create_word_password(words, num_words):  # 2
     """
     Function creates an alphabetic password by choosing four words from the words list and combines them
     Parameter: words, a list containing the words
-               num_words, an integer with a default parameter of 4 words; must be greater than 4
+               num_words, an integer which must be greater than 4
     Returns: password, a string containing the password
     """
     password = ""
@@ -114,10 +114,10 @@ def create_word_password(words, num_words=4):  # 2
     return password
 
 
-def create_num_password(digits=8):  # 3
+def create_num_password(digits):  # 3
     """
-    Creates a numeric password of a length entered by user. Default = 8, must be greater than 6 digits
-    Params: digits, an integer with a default parameter of 8.
+    Creates a numeric password of a length entered by user. Default = 8 (sent from pw_length function, must be greater than 6 digits
+    Params: digits, an integer.
     Returns: passcode, an integer containing the passcode
 
     EXCEPTION: This function is used in the alphanumeric, and it produces a 4 digit number
@@ -131,11 +131,11 @@ def create_num_password(digits=8):  # 3
     return passcode
 
 
-def create_random_password(ascii_list, chars=12):  # 4
+def create_random_password(ascii_list, chars):  # 4
     """
     Uses the 94 possible ascii charater set (uppercase, lowercase, digits, and punctuation) to make a random password
     Parameter: ascii_list, a string containing all possible ascii characters (excluding whitespace).
-               chars, an integer with a default parameter of 12 characters for password length; must be greater than 12
+               chars, an integer must be greater than 12 characters
     Returns: password, a string containing the password
     """
 
