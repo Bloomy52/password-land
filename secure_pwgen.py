@@ -1,6 +1,6 @@
 # Louie Bloomberg
 # The Secure Password Generator!
-# Version 1.0
+# Version 1.0.0
 
 # Importing Modules: Links for things are mostly here with some other links scattered around.
 import random
