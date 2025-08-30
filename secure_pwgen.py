@@ -1,7 +1,7 @@
 # Louie Bloomberg
 # The Secure Password Generator!
 
-__version__ = "1.0.0"
+__version__ = "0.1.0"
 
 # Importing Modules: Links for things are mostly here with some other links scattered around.
 import random
