@@ -1,0 +1,23 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+## [1.2.0] - 2025-08-30
+### Added
+- New password strength meter.
+
+### Changed
+- Improved random number generation for better security.
+
+### Fixed
+- Resolved bug where special characters were sometimes omitted.
+
+## [1.1.0] - 2025-07-01
+### Added
+- Option to exclude ambiguous characters.
+
+## [1.0.0] - 2025-01-01
+### Added
+- Initial release.
