@@ -17,30 +17,35 @@ A flexible and interactive command-line utility for generating strong, customiza
 - Python 3.x
 - `words_alpha.txt` (included in the repository for word-based passwords)
 
-## Usage
+## Quick Start (Recommended for Most Users)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Bloomy52/secure-password-generator.git
-   cd secure-password-generator
-   ```
+**Download the latest version:**
 
-2. **Word List Provided:**
-   - The `words_alpha.txt` file is included and required for word-based password generation.
-   - No additional download is required.
+1. Go to the [Releases page](https://github.com/Bloomy52/secure-password-generator/releases).
+2. Download the latest release zip file.
+3. Extract the zip file to a folder on your computer.
 
-3. **Run the password generator:**
-   ```bash
-   python secure_pwgen.py
-   ```
+**Run the password generator:**
+```bash
+python secure_pwgen.py
+```
 
-4. **Follow the prompts:**
-   - Select your password type:
-     - Alphanumeric
-     - Alphabetic (words only)
-     - Numeric
-     - Completely random (ASCII)
-   - Enter your desired length or number of words/digits as prompted.
+**Follow the prompts:**
+- Select your password type:
+  - Alphanumeric
+  - Alphabetic (words only)
+  - Numeric
+  - Completely random (ASCII)
+- Enter your desired length or number of words/digits as prompted.
+
+## For Developers or Advanced Users
+
+If you prefer, you can clone the repository:
+```bash
+git clone https://github.com/Bloomy52/secure-password-generator.git
+cd secure-password-generator
+python secure_pwgen.py
+```
 
 ## Example
 
